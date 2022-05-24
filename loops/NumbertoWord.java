@@ -35,5 +35,6 @@ public class NumbertoWord {
                     break;
             }
         }
+        sc.close();
     }
 }

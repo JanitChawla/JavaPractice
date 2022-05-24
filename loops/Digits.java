@@ -8,13 +8,14 @@ public class Digits {
         System.out.println("Enter a number");
         int n = sc.nextInt();
         int m = n;
-        int r, count = 0;
+        int r;
+        // int count = 0;
         int sum = 0;
         while (n > 0) {
             r = n % 10;
             sum = sum + r * r * r;
             n = n / 10;
-            count++;
+            // count++;
             // System.out.println(sum);
             // System.out.println(r);
         }
@@ -26,5 +27,6 @@ public class Digits {
             System.out.println("Not Armstrong");
         }
         // System.out.println(count);
+        sc.close();
     }
 }
